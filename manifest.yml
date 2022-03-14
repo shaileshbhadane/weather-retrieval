@@ -1,0 +1,8 @@
+---
+applications:
+- name: weather-retrieval
+  random-route: true
+  memory: 512M
+  disk: 1G
+  instances: 2
+  path: ./bin/Release/netcoreapp1.1/ubuntu.14.04-x64/publish/ 
